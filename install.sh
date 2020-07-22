@@ -12,4 +12,8 @@ echo ""
 sudo apt install tmux vim
 cp tmux.conf /home/$USER/.tmux.conf
 cp vimrc /home/$USER/.vimrc
+echo ""
+echo "[+] Installation complete..."
+echo "[+] Removing the set up files"
 rm -r -f $PWD
+
